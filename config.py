@@ -4,8 +4,8 @@
 KindleEar配置文件，请务必修改开始两个配置（如果使用uploader，则uploader自动帮你修改）
 """
 
-SRC_EMAIL = "akindleear@gmail.com"  #Your gmail account for sending mail to Kindle
-DOMAIN = "https://kindleear.appspot.com" #Your domain of app
+SRC_EMAIL = "loyalwong@gmail.com"  #Your gmail account for sending mail to Kindle
+DOMAIN = "https://loyalwong2kindleear.appspot.com" #Your domain of app
 
 TIMEZONE = 8  #Default timezone, you can modify it in webpage after deployed
 
@@ -50,7 +50,8 @@ COLOR_TO_GRAY = True
 
 #reduce dimension of image to (Width,Height)
 #or you can set it to None, and choose device type in webpage 'setting'
-REDUCE_IMAGE_TO = None #(600,800)
+#REDUCE_IMAGE_TO = None #(600,800)
+REDUCE_IMAGE_TO = (600,800) #(600,800)
 
 #clean css in dealing with content from string@appid.appspotmail.com or not
 DELETE_CSS_FOR_APPSPOTMAIL = True
